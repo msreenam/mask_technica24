@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(50deg, rgb(140, 85, 250) 0%,rgb(200, 215, 253) 75%,rgb(143, 230, 243) 100%);
+
+}
+
+header {
+    color: black;
+    font-size: 20
+    /*px;*/
+}
+
+#intro {
+    font-size: 40px;
+    size: 200px;
+    flex: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+#catSpeech {
+    font-size: 20px;
+    size: 100px;
+    padding-bottom: 50px;
+    flex: auto;
+    flex-wrap: wrap;
+    /*margin: 0px;*/
+    margin-right: 0px;
+    text-align: center;
+}
+
+#ifYouCan {
+    font-size: 25px;
+    size: 100px;
+    flex: auto;
+    flex-wrap: wrap;
+    /*margin: 0px;*/
+    margin-right: 0px;
+    text-align: center;
+}
+
+#oneMile {
+    background-color: rgb(199, 89, 159);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    size: 10px;
+    text-align: center;
+    align-content: center;
+    flex: auto;
+    flex-wrap: wrap;
+}
