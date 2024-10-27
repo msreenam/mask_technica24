@@ -1,70 +1,102 @@
 body {
-    background-image: linear-gradient(50deg, rgb(140, 85, 250) 0%,rgb(200, 215, 253) 75%,rgb(143, 230, 243) 100%);
-
+    background-image: linear-gradient(50deg, rgb(140, 85, 250) 0%, rgb(200, 215, 253) 75%, rgb(143, 230, 243) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
 }
 
 header {
     color: black;
-    font-size: 20
-    /*px;*/
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 #intro {
     font-size: 40px;
-    size: 200px;
-    flex: auto;
-    flex-wrap: wrap;
     padding: 20px;
-    margin: 0px;
-    margin-right: 0px;
-    text-align: center;
 }
 
-#catSpeech {
+#rabbitSpeech {
     font-size: 20px;
-    size: 100px;
-    padding-bottom: 50px;
-    flex: auto;
-    flex-wrap: wrap;
-    /*margin: 0px;*/
-    margin-right: 0px;
-    text-align: center;
+    padding-bottom: 30px;
+    max-width: 80%;
 }
 
-#ifYouCan {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+}
+
+.text {
     font-size: 25px;
-    size: 100px;
-    flex: auto;
-    flex-wrap: wrap;
-    /*margin: 0px;*/
-    margin-right: 0px;
-    text-align: center;
+    margin-top: 10px;
 }
 
 #oneMile {
     background-color: rgb(199, 89, 159);
-    border: 0px;
+    border: none;
     border-radius: 10px;
     font-size: 30px;
-    size: 10px;
-    text-align: center;
-    align-content: center;
-    flex: auto;
-    flex-wrap: wrap;
+    padding: 10px 20px;
     cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
-.container {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-   }
-   
-   img {
-     width: 100%;
-     max-height:100%;
-   }
-   
-   .text {
-     font-size: 50px;
-   }
+#introTwo {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#catSpeech {
+    font-size: 20px;
+    padding-bottom: 30px;
+    max-width: 80%;
+}
+
+.containerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerTwo img {
+    width: 200px;
+    height: auto;
+}
+
+.textTwo {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#twoMile {
+    background-color: rgb(199, 89, 159);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#Alice {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+}
