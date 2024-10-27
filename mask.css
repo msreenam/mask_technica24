@@ -141,5 +141,10 @@ header {
 }
 
 .oval {
-    color: aqua;
+    text-align: center;
+    flex:auto;
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: .1px;
+    width: 725px;
 }
