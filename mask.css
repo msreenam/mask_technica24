@@ -93,6 +93,45 @@ header {
     text-decoration: none;
 }
 
+#introThree {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#madSpeech {
+    font-size: 20px;
+    padding-bottom: 30px;
+    max-width: 80%;
+}
+
+.containerThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerThree img {
+    width: 200px;
+    height: auto;
+}
+
+.textThree {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#fiveMile {
+    background-color: rgb(199, 89, 159);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
 #Alice {
     position: fixed;
     bottom: 20px;
