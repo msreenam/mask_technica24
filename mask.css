@@ -15,6 +15,45 @@ header {
     margin-top: 10px;
 }
 
+#introTitle {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#Speech {
+    font-size: 20px;
+    padding-bottom: 30px;
+    max-width: 80%;
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerTitle img {
+    width: 200px;
+    height: auto;
+}
+
+.textTitle {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#begin {
+    background-color: rgb(199, 89, 159);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
 #intro {
     font-size: 40px;
     padding: 20px;
@@ -132,19 +171,126 @@ header {
     text-decoration: none;
 }
 
+#introFour {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#queenSpeech {
+    font-size: 20px;
+    padding-bottom: 30px;
+    max-width: 80%;
+}
+
+.containerFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerFour img {
+    width: 200px;
+    height: auto;
+}
+
+.textFour {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#tenMiles {
+    background-color: rgb(199, 89, 159);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.oval {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    flex:auto;
+    background-color: blueviolet;
+    border-radius: 50px;
+    flex-wrap: 20px;
+    height: 10px;
+    width: 1500px;
+}
+
 #Alice {
     position: fixed;
     bottom: 20px;
     left: 20px;
     width: 100px;
     height: auto;
+    margin-left: 1px;
 }
 
-.oval {
-    text-align: center;
-    flex:auto;
-    background-color: blueviolet;
-    border-radius: 20px;
-    height: .1px;
-    width: 725px;
+#Alice1 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 150px;
+}
+
+#Alice2 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 400px;
+}
+
+#Alice3 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 800px;
+}
+
+
+#rabbitRun {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 150px;
+}
+
+#catRun {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 95px;
+    height: auto;
+    margin-left: 400px;
+}
+
+#smallHat {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 800px;
+}
+
+#queen {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 1125px;
 }
